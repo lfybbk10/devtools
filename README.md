@@ -1,3 +1,7 @@
+### CI Status
+
+[![Java CI with Checkstyle and JaCoCo](https://github.com/lfybbk10/devtools/actions/workflows/ci.yml/badge.svg)](https://github.com/lfybbk10/devtools/actions/workflows/ci.yml)
+
 ### Quick Start
 
 **Через Gradle Tool Window (IDEA):**  
@@ -125,3 +129,4 @@ git commit -m "DVT-3: описание"
 
 Почему: скобки обязательны даже для однострочных блоков.
 Источник: https://google.github.io/styleguide/javaguide.html#s4.1.1-braces-always-used
+
