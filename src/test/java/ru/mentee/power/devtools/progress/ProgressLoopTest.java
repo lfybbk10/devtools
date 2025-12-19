@@ -2,6 +2,7 @@ package ru.mentee.power.devtools.progress;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import ru.mentee.power.ProgressDemo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -26,6 +27,9 @@ class ProgressLoopTest {
         assertThat(result)
                 .contains("пройдено 25 из 36 уроков")
                 .contains("осталось 11 уроков");
+
+        ProgressTracker.main(new String[0]);
+        ProgressDemo.main(new String[0]);
     }
 
     @Test
