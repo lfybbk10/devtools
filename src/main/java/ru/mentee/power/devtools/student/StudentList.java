@@ -35,6 +35,7 @@ public class StudentList {
     if (student != null
         && student.name() != null
         && student.name().length() > 0) {
+
       studentList.add(student);
       studentByName.put(student.name(), student);
     }
