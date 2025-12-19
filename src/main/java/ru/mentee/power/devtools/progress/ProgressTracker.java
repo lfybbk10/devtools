@@ -22,7 +22,7 @@ public class ProgressTracker {
 
     String progress = tracker.calculateTotalProgress(mentees);
     System.out.println(progress);
-  }
+   }
 
   /**
    * Вычисляет суммарный прогресс группы mentee.
