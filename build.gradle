@@ -16,6 +16,9 @@ ext {
 checkstyle {
     toolVersion = '12.2.0'  // актуальная версия на 2025 год
     configFile = file("${rootDir}/config/checkstyle/checkstyle.xml") // опционально, если нужен custom config
+    configProperties = [
+            "org.checkstyle.google.severity": "error"
+    ]
 }
 
 java {

@@ -1,5 +1,7 @@
 package ru.mentee.power.devtools.progress;
 
+import java.util.*;
+
 /**
  * Класс для вычисления суммарного прогресса группы mentee.
  */
@@ -22,7 +24,7 @@ public class ProgressTracker {
 
     String progress = tracker.calculateTotalProgress(mentees);
     System.out.println(progress);
-   }
+  }
 
   /**
    * Вычисляет суммарный прогресс группы mentee.
