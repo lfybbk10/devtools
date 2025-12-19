@@ -53,6 +53,4 @@ public class ProgressTracker {
 
     return "Массив не должен быть null и должен иметь ненулевую длину";
   }
-
-  //TODO
 }

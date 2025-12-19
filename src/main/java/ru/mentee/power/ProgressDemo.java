@@ -20,7 +20,5 @@ public class ProgressDemo {
     }
 
     System.out.println("Current branch - feature/DVT-9");
-
-    //System.out.println("Current branch - feature/DVT-3");
   }
 }
