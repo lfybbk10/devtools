@@ -1,7 +1,5 @@
 package ru.mentee.power.devtools.progress;
 
-import java.util.*;
-
 /**
  * Класс для вычисления суммарного прогресса группы mentee.
  */
